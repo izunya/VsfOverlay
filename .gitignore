@@ -1,0 +1,14 @@
+# 이 저장소에는 배포용 문서만 둔다.
+# 프로그램(exe)은 커밋하지 않고 GitHub Releases 의 첨부 파일로 올린다.
+*.exe
+*.zip
+*.pdb
+
+# 소스 코드가 실수로 섞여 들어가지 않도록
+*.cs
+*.csproj
+*.sln
+bin/
+obj/
+publish/
+.vs/
